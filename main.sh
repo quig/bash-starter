@@ -10,7 +10,7 @@ NOT_ENOUGH_ARGUMENT_PROVIDED=242
 BETA=beta
 PROD=prod
 
-# set -o errexit  # exit on error, disable it as ends the script if curl fails
+# set -o errexit  # exit on error, disable it as ends the script if for example a curl fails
 set -o pipefail
 
 source ./common/logger.sh
